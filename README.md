@@ -14,7 +14,7 @@ Here's my <a href = "">certificate</a> on completing the course.
 Main Data Structure: The network has been laid out as a classic graph using an adjacency list. Each individual in the graph is a vertex and an edge between vertices represents a friendship.
 An additional HashMap is used to store the vertex-label pair information.
 
-Algorithm Description and Complexity Analysis:
+## Algorithm Description and Complexity Analysis:
 ```
 1. Generate the graph from input data. --- O(V+E)
 2. Initialize different labels for all vertices. --- O(V)
@@ -30,4 +30,21 @@ The estimated running time is O(N*(V+E)), and it has been proven in the referenc
 There is a random factor in label propagation process, thus the result for each run is different. It's hard to validate the correctness of the result. However, with aggregation, the final result is proven to be relatively stable with five graphs aggregated.
 
 ## Testing and Validation
-Two small test datasets were used karate club and US college football schedule. Compared with the ground truth result, accuracy is around 95%.
+```
+Dataset used: data/football.txt
+Total communities detected: 14
+Total runtime: 0 seconds
+------------------------------------------------
+Dataset used: data/facebook_1000.txt
+Total communities detected: 187
+Total runtime: 0 seconds
+------------------------------------------------
+Dataset used: data/facebook_2000.txt
+Total communities detected: 259
+Total runtime: 0 seconds
+------------------------------------------------
+Dataset used: data/facebook_ucsd.txt
+Total communities detected: 25
+Total runtime: 11 seconds
+------------------------------------------------
+```
