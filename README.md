@@ -3,7 +3,7 @@ My Capstone project for OOP: Data Structures &amp; Beyond Specialization offered
 
 This course is offered at <a href="https://www.coursera.org">Coursera</a> and is part of the <a href="https://www.coursera.org/specializations/java-object-oriented">Object Oriented Java Programming: Data Structure and Beyond Specializaiton</a>.
 
-Here's my <a href = "">certificate</a> on completing the course.
+Here's my <a href = "https://www.coursera.org/account/accomplishments/specialization/5G87PQ3HJFXA">certificate</a> on completing the course.
 
 ## Questions
 - Develop the label propagation algorithm to generate one feasible solution for community detection.
